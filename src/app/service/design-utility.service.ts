@@ -6,7 +6,7 @@ import { Subject, BehaviorSubject } from 'rxjs';
 })
 export class DesignUtilityService {
 
-  userName = new BehaviorSubject<string>('Parag')
+  userName = new BehaviorSubject<string>('Manish')
 
   constructor() { }
 }
