@@ -8,6 +8,7 @@ import { SubjectComponent } from './subject/subject.component';
 import { Comp1Component } from './comps/comp1/comp1.component';
 import { Comp2Component } from './comps/comp2/comp2.component';
 import { Comp3Component } from './comps/comp3/comp3.component';
+import { ReplaySubjectComponent } from './replay-subject/replay-subject.component';
 
 @NgModule({
   declarations: [
@@ -16,11 +17,13 @@ import { Comp3Component } from './comps/comp3/comp3.component';
     SubjectComponent,
     Comp1Component,
     Comp2Component,
-    Comp3Component
+    Comp3Component,
+    ReplaySubjectComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
